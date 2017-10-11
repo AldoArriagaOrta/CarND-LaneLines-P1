@@ -19,8 +19,8 @@ The goals of this project are :
 [image6]: ./test_images_output/blur1.jpg "Gaussian"
 [image7]: ./test_images_output/edges1.jpg "Canny"
 [image8]: ./test_images_output/masked_edges1.jpg "ROI"
-[image9]: ./test_images_output/lines.jpg "Hough"
-[image10]: ./test_images_output/transparent_lines.jpg "Overlay"
+[image9]: ./test_images_output/lines1.jpg "Hough"
+[image10]: ./test_images_output/transparent_lines1.jpg "Overlay"
 
 
 ---
