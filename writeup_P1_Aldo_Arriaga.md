@@ -31,6 +31,8 @@ The goals of this project are :
 
 The pipeline proposed consists of 9 steps:
 
+![alt text][image1]
+
 1. Gamma correction. The challenge video presented some inconsistent shades in the road, rendering more difficult the lane lines detection. By controlling brightness and contrast it was possible to make the lane markings more clearly visible.
 
 ![alt text][image2]
@@ -60,11 +62,13 @@ The pipeline proposed consists of 9 steps:
 ![alt text][image8]
 
 8. Hough transform is used to extract lines from the detected edges. In order to draw a single line on the left and right lane markings, I modified the draw_lines() function by separating the line segments corresponding to left and right lane markings and subesequently extracting the points corresponding to every line segment.
-The points were stored in lists and fitted to a pair 1st order polynomials. The coefficients were used to determine the start and end points of the line segments to be draw the pair of lines.
+The points were stored in lists and fitted to a pair 1st order polynomials. The coefficients were used to determine the start and end points of the line segments to be drawn.
 
 ![alt text][image9]
 
-9. The lines are overlaid o
+9. The lines are overlaid on the original image.
+
+![alt text][image10]
 
 ### 2. Potential shortcomings with the current pipeline
 
